@@ -1,0 +1,32 @@
+*{ padding: 0; margin: 0; font-size: 14px}
+a{ text-decoration: none}
+em{font-style: normal}
+input{ padding: 0; margin: 0; box-sizing: border-box}
+.content{ display: flex; flex-direction: column; border: 1px solid #999999; width: 800px; margin: 0 auto}
+.content .seach-box{ border-bottom: 1px solid #999999; height: 70px; display:flex; justify-content: center; flex-direction: row;align-items: center; background: #dbdbdb}
+.content .seach-box .inp-sty{  width: 400px; padding: 0 10px; margin: 0 10px 0 0; height: 35px; border:1px solid #999999}
+.content .seach-box .btn-sty{  width: 100px; height: 35px; line-height: 35px;background: #0267b9 ;color: #ffffff}
+.content .seach-box .xbtn-sty{  width: 100px; height: 35px; line-height: 35px; background: #0b8040 ; color: #ffffff}
+// 列表
+.list{ margin: 0 auto; width: 100%}
+.list li{ height: 40px; line-break: 40px; border-bottom: 1px dotted #999999; overflow: hidden; justify-content: space-between; align-items: center; display: flex; width: 100%}
+.list li:last-child{ border: 0}
+.list .bg-sty{ background: #f0f0f0}
+
+.list em{ font-size: 12px; margin: 0 0 0 5px}
+.list .txt-box{ padding: 0  0 0 10px;}
+.list .wwc-ico{ color: #c50b0b}
+.list .ywc-ico{ color: #0b8040}
+.list .ysc-ico{ color: #999999}
+
+.list .btn-box{ color: #ffffff; align-items: center}
+.list .btn-box .edit-btn{ width: 70px; height:40px; background: #0b8040;color: #ffffff;}
+.list .btn-box .del-btn{ width: 70px; height:40px; background: #c50b0b;color: #ffffff;}
+.list .btn-box .finish-btn{ width: 70px; height:40px; background: #0a8f94;color: #ffffff;}
+
+// 导航
+
+.nav-box{ height: 40px; width: 100%; line-height: 40px; align-items: center; display: inline-flex}
+.nav-box a{ text-align: center; color: #000000; border: 1px solid #999999;  border-right: 0; box-sizing: border-box; width: 25%}
+.nav-box a:first-child{ border-left: 0}
+.nav-box a.active{ color: #ffffff; background: #6d6a6a}
